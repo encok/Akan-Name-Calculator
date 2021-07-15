@@ -14,9 +14,9 @@ background: rgb(238, 232, 232);
 img{
     border-top-left-radius: 30px;
     border-bottom-left-radius:30px ;
-    height: 200px;
+    height: 100px;
     width: 400px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .btn1{
     border: none;
@@ -68,3 +68,13 @@ input[type="radio"]{
     background: #f56;
     background-clip: content-box;
   } 
+  .col-lg-5 p{
+      font-size: 16px;
+      margin-left: 30px;
+      margin-top: 10px ;
+  }
+  .font-weightbold{
+      margin-left: 30px;
+      margin-top: 20px;
+      border-bottom: 2px black;
+  }
