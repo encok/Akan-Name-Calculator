@@ -14,7 +14,9 @@ background: rgb(238, 232, 232);
 img{
     border-top-left-radius: 30px;
     border-bottom-left-radius:30px ;
-    height: 400px;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
 }
 .btn1{
     border: none;
