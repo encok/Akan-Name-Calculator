@@ -74,30 +74,67 @@ input[type="radio"]{
       margin-top: 10px ;
   }
   .font-weightbold1{
-      margin-left: 400px;
+      margin-left: 470px;
       margin-top: 20px;
       border-bottom: 2px black;
   }
   .lead{
-    margin-left: 200px;
+    margin-left: 700px;
     margin-right: 100px;
       margin-top: 20px;
       border-bottom: 2px black;  
+      width: 400px;
   }
   .table{
+      display: flex;
+      flex-direction: column;
       margin: 40px;
       margin-left: 200px;
-      width: 300px;
-      height: 200px;
+      width: 200px;
+      height: 400px;
+      margin-top: -330px;
+      margin-bottom: 70px;
   }
   .table th{
       width: 100px;
+      justify-content: space-between;
+      margin: 0 5px;
   }
   .h3{
+    margin-top: -700px;
     margin-left: 200px; 
     color: black;
     display: inline; 
     border-bottom: 3px solid grey;
     padding-bottom: 8px;
-    line-height: 1.75em;
+    line-height: 1.75em; 
+    
+  }
+  /* h4{
+    margin-top: -300px;
+  } */
+  .vl {
+    border-left: 1px solid grey;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -170px;
+    margin-top: -32px;
+  }
+  .vl1 {
+    border-left: 1px solid grey;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: 120px;
+    margin-top: -32px;
+  }
+  .strong{
+      font-weight: 600;
+      border-bottom: 2px solid grey;
+  }
+  .table .capt{
+      font-weight: 600;
+      color:black;
+      font-size: 18px;
   }
