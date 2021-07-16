@@ -9,7 +9,8 @@ function akanNaming(){
  var gender = document.getElementById("gender").value;
  var CC = parseInt(year);
  var YY = parseInt(year);
- var MM = parseInt(month);
+ var MM = mob;
+ var DD = dob;
  var Day = parseInt(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7); 
 
  if(gender===female){
