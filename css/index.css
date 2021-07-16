@@ -73,10 +73,16 @@ input[type="radio"]{
       margin-left: 30px;
       margin-top: 10px ;
   }
-  .font-weightbold{
-      margin-left: 30px;
+  .font-weightbold1{
+      margin-left: 400px;
       margin-top: 20px;
       border-bottom: 2px black;
+  }
+  .lead{
+    margin-left: 200px;
+    margin-right: 100px;
+      margin-top: 20px;
+      border-bottom: 2px black;  
   }
   .table{
       margin: 40px;
