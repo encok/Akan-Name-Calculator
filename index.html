@@ -93,18 +93,21 @@
                  <h4 class="font-weightbold py-3">Your BirthDay</h4>
                  
                  <div>
-                    <form action="/action_page.php">
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <form action="#">
+                      <label for="year">Year of Birth</label>
+                      <input type="number" id="fname" name="firstname" placeholder="Example 1997">
                   
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="month">Month</label>
+                      <input type="number" id="lname" name="lastname" placeholder="Example 05">
+
+                      <label for="day">Day</label>
+                      <input type="number" id="lname" name="lastname" placeholder="Example 15">
                   
-                      <label for="country">Country</label>
-                      <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
+                      <label for="gender">Gender</label>
+                      <select id="gender" name="gender">
+                        <option value="australia">Male</option>
+                        <option value="canada">Female</option>
+                        
                       </select>
                     
                       <input type="submit" value="Submit">
