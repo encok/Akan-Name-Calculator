@@ -13,9 +13,9 @@ function akanNaming(){
  var Day = parseInt(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7); 
 
  if(gender===female){
-     console.log("Your akan is " + femaleAkanNames[day]);
+     alert("Your akan is " + femaleAkanNames[day]);
  }
  else{
-     console.log("Your akan name is" +maleAkanNames[day]);
+     alert("Your akan name is" +maleAkanNames[day]);
  }
 }
