@@ -78,3 +78,9 @@ input[type="radio"]{
       margin-top: 20px;
       border-bottom: 2px black;
   }
+  .table{
+      margin: 40px;
+      margin-left: 200px;
+      width: 200px;
+      height: 200px;
+  }
