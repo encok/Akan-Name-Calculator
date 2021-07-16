@@ -14,8 +14,7 @@
   <body>
       <section>
         <h4 class="font-weightbold1">Akan Name-Calculator</h4>
-        <div class="vl"></div>
-        <div class="vl1"></div>
+       
         <p class="lead"><Strong class="strong">About Akan Naming</Strong><br>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
             <a href="https://en.wikipedia.org/wiki/Akan_names">Read More</a>
         </p>
@@ -93,31 +92,25 @@
              <div class="col-lg-7 px-5 pt-5">
                  <h4 class="font-weightbold py-3">Your BirthDay</h4>
                  
-                 <form >
-                     <div class="form-row">
-                         <div class="col-lg-7">
-                             <input type="date" placeholder="Enter your birthday" class="form-control my-3 p-4">
-                         </div>
-                     </div>
-                     <div class="form-row">
-                        <div class="col-lg-7">
-                            <input id="individual" type="radio" name="user" value="Individual">
-                            <label for="individual"><span></span>Male</label>
-                        
-                            <input id="organization" type="radio" name="user" value="Organization">
-                            <label for="organization"><span></span>Female</label>
-                        
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-lg-7">
-                            <button type="button" class="btn1">Submit</button>
-                        </div>
-                    </div>
-                    <iframe id="inlineFrameExample"
-    
-                    </iframe>
-                 </form>
+                 <div>
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                    
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                  
              </div>
          </div>
      </div>
