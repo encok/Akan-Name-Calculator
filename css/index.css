@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-background: rgb(238, 232, 232);
+/* background: rgb(238, 232, 232); */
 }
 /* .row{
     background-color: white;
@@ -174,4 +174,9 @@ iframe {
       text-align: center;
       height: 50px;
   }
-  
+  .africa img{
+    height: 20px;
+    width: 40px;
+    margin-top: 0px;
+    margin-left: 300px;
+  }
