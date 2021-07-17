@@ -19,12 +19,11 @@ function akanNaming(){
     // computation
     let dayOfWeek=((((century/4)-2*century-1)+((5*year/4))+((26*(month+1)/10))+day)%7);
     // validation
+if( wholeyear>2021&&wholeyear<1900 || gender==""){
+
+
     if(day>0&&day<32){
 
-       
-     
-            
-        
         if(month>0&&month<31){
             if(gender=='Male'){
                 let i=0;
@@ -59,4 +58,10 @@ function akanNaming(){
     else{
         alert("Invalid day");
     }
+
+}
+    else{
+      alert("Enter valid year or gender should not be blank");
+    }
+
 }
