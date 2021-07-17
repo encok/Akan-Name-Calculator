@@ -1,15 +1,10 @@
- Project Name
+ ## Project Name
 Akan Name-Calculator
 ## Author
 Enock Kipronoh
 ## Project Description
-This is a webesite about my portfolio and my programming journey. It includes the following:
-* Home page
-* About me section
-* My Projects Section
-* Contact Me section
-
-It also has my skills with the job experience in the about me section.The main languages used for the project are Html, css and javascript.
+This is a webesite where you can Check the day you were born in Ghana naming system.Ghana is a great country that still holds its peoples culture and all people are named depending on the day they week they were born.
+The main languages used for the project are Html, css and javascript.
 ### screenshots for the sections
 <img src="images/1.png">
 <img src="images/2.png">
