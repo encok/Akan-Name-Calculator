@@ -95,9 +95,9 @@
                  <h4 class="font-weightbold py-3">Your BirthDay</h4>
                  
                  <div>
-                    <form>
+                    <form id="myForm">
                       <label for="year">Year of Birth</label>
-                      <input type="number" id="yob" name="year" placeholder="Example 1997" required>
+                      <input type="number" id="yob" name="year" placeholder="Example 1997" required autofocus>
                   
                       <label for="month">Month</label>
                       <input type="number" id="mob" name="month" placeholder="Example: December=12, January=1" required>
@@ -113,7 +113,7 @@
                         
                       </select>
                     
-                      <input type="submit" onclick="akanNaming()" value="Submit">
+                      <input type="submit" onclick="akanNaming()" value="Submit" #myForm>
                     </form>
                   </div>
                   

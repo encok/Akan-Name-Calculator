@@ -19,7 +19,8 @@ function akanNaming(){
     // computation
     let dayOfWeek=((((century/4)-2*century-1)+((5*year/4))+((26*(month+1)/10))+day)%7);
     // validation
-if( wholeyear>2021&&wholeyear<1900 || gender==""){
+if( wholeyear>2021&&wholeyear<1900) {
+    
 
 
     if(day>0&&day<32){
@@ -50,18 +51,19 @@ if( wholeyear>2021&&wholeyear<1900 || gender==""){
 
         }
         else{
-            alert("Invalid month entered");
+            alert("Invalid month entered").focus();
         }
     }
    
 
     else{
-        alert("Invalid day");
+        alert("Invalid day").focus();
     }
+
 
 }
     else{
-      alert("Enter valid year or gender should not be blank");
+      alert("Enter valid year or gender should not be blank").focus();
     }
 
 }
