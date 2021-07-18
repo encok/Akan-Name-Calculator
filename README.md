@@ -39,4 +39,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ## Copyright 
-My portfolio project uses MIT license which means anyone is free to clone the project and go and improve it but do not mess with my original code.
+Akan Naming-Calculator uses MIT license which means anyone is free to clone the project and go and improve it.
