@@ -8,7 +8,7 @@ The main languages used for the project are Html, css and javascript.
 ### screenshots for the sections
 <img src="images/one.png">
 <img src="images/two.png">
-<img src="images/three.png">
+<img src="images/45.png">
 
 
 ## Project setup instructions
